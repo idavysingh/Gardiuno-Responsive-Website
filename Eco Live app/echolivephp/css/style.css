@@ -1,0 +1,334 @@
+ body
+{
+  font-size:16px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+  font-family:Poppins;
+}
+p
+{
+  font-family:Roboto;
+  font-size: 16px;
+}
+img
+{
+  max-width: 100%;
+}
+
+footer{
+  padding: 30px 40px;
+  background-color: #38393A;
+  color: white;
+}
+footer h4
+{
+  color: #696969;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+span
+{
+  color: #5BBD76;
+}
+legend{
+    border-bottom: 0px !important;
+}
+
+.navbar-default{
+  background:#2d8659;
+  border:0;
+  font-family:Poppins;
+}
+
+.navbar-brand{
+  font-size:22px;
+  color:#fff !important;
+  font-weight:bold;
+}
+#navbar-brand l
+{
+  margin-left: 25px;
+}
+
+.info-left > img
+{
+  margin-top: 50px;
+}
+#navbar a
+{
+  color: white;
+}
+
+
+
+}
+#navbar-nav > li > a:hover {
+    background-color: #fff;
+    color: #FFC0CB;
+}
+#showcase{
+    padding: 50px 0px;
+}
+
+
+#showcase h1{
+  font-size:30px;
+  margin-bottom:20px;
+}
+
+#showcase img{
+  width:100%;
+  margin-left:0px;
+}
+
+.showcase-right{
+  /*margin-top:90px;*/
+}
+
+.showcase-left
+{
+/*  margin-top: 150px;
+margin-right: 60px;*/
+
+}
+
+#middlediv{
+  background:#f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align:center;
+  margin-top:40px;
+}
+
+#middlediv p{
+  font-size:30px;
+  font-family: 'Josefin Sans';
+  color:#000;
+  line-height: 33px;
+}
+
+#middlediv p.ideal{
+  font-size:20px;
+  color:#666;
+}
+
+#info1 .info-right{
+  margin-top:90px;
+}
+
+#info2{
+  margin:20px 0 60px 0;
+}
+
+#contact1{
+
+  padding:40px;
+  color:#fff;
+  border-top:#333 7px solid;
+  border-bottom:#333 7px solid;
+}
+
+
+.top, .bottom 
+{
+   height: 100px; 
+}
+
+#copyright
+{
+  text-align: center;
+  font-size: 12px;
+  color: #F0F0F0;
+}
+.bg {
+    /* The image used */
+    background-image: url("../images/home.png");
+
+    /* Full height */
+    height: 100%; 
+    min-height: 800px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.bgc {
+    /* The image used */
+    background-image: url("../images/desktop.png");
+
+    /* Full height */
+    height: 100%; 
+    min-height: 400px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right-half {
+
+  position: absolute;
+  right: 0px;
+  width: 50%;
+  min-height: 800px;
+  padding-top: 200px;
+}
+
+.background-image {
+  left: 0;
+  right: 0;
+  display: block;
+  background-image: url('../images/blur-background.png');
+}
+
+.content {
+
+  left: 0;
+  right: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.icon-center{
+    text-align: center; font-size: 142px;
+}
+.fa{
+    color: #FFF;
+
+}
+
+.benefit{
+    padding: 50px 0px;
+}
+
+.heading{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.description{
+   font-size: 22px;
+}
+.barchart{
+    background: #c7daaa;
+    padding: 50px 0px;
+    text-align:center;
+}
+
+.slogan{
+    font-size: 30px;
+    padding: 50px 0px;
+}
+
+
+.barchart ul li {
+  color: #3c3c3c; 
+  /* set color of list item text */
+
+  list-style: none; 
+}
+
+
+
+.circle:before {
+  content: ' \25CF';
+  font-size: 20px;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+#contact-form ul li {
+    list-style: none; 
+}
+
+.form-control{
+    width: 80% !important;
+    height: 50px !important;
+}
+
+
+.footer-icon ul li{
+    display: inline;
+    padding-right: 10px;
+    font-size: 40px; 
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    #showcase h1{
+      font-size:20px;
+      margin-bottom:20px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #showcase h1{
+      font-size:20px;
+      margin-bottom:20px;
+    }
+
+     .slogan {
+        font-size: 20px;
+        padding: 50px 0px;
+    }   
+    svg{
+        width: 200px;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+     #showcase h1{
+      font-size:20px;
+      margin-bottom:20px;
+    }
+
+    .slogan {
+        font-size: 20px;
+        padding: 50px 0px;
+    }
+    svg{
+        width: 200px;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 500px) {
+
+}
+@media only screen and (min-width : 481px) {
+
+}
+
